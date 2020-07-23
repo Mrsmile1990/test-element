@@ -47,9 +47,9 @@
 </template>
 
 <script>
-import Popup from 'element-ui/src/utils/popup';
-import emitter from 'element-ui/src/mixins/emitter';
-import Utils from 'element-ui/src/utils/aria-utils';
+import Popup from 'test-element2/src/utils/popup';
+import emitter from 'test-element2/src/mixins/emitter';
+import Utils from 'test-element2/src/utils/aria-utils';
 
 export default {
   name: 'ElDrawer',

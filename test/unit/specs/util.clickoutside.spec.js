@@ -1,4 +1,4 @@
-import Clickoutside from 'element-ui/src/utils/clickoutside';
+import Clickoutside from 'test-element2/src/utils/clickoutside';
 const ctx = '@@clickoutsideContext';
 
 import { triggerEvent, triggerClick } from '../util';

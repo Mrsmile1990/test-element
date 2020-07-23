@@ -112,21 +112,21 @@
 </template>
 
 <script>
-import Popper from 'element-ui/src/utils/vue-popper';
-import Clickoutside from 'element-ui/src/utils/clickoutside';
-import Emitter from 'element-ui/src/mixins/emitter';
-import Locale from 'element-ui/src/mixins/locale';
-import Migrating from 'element-ui/src/mixins/migrating';
-import ElInput from 'element-ui/packages/input';
-import ElTag from 'element-ui/packages/tag';
-import ElScrollbar from 'element-ui/packages/scrollbar';
-import ElCascaderPanel from 'element-ui/packages/cascader-panel';
-import AriaUtils from 'element-ui/src/utils/aria-utils';
-import { t } from 'element-ui/src/locale';
-import { isEqual, isEmpty, kebabCase } from 'element-ui/src/utils/util';
-import { isUndefined, isFunction } from 'element-ui/src/utils/types';
-import { isDef } from 'element-ui/src/utils/shared';
-import { addResizeListener, removeResizeListener } from 'element-ui/src/utils/resize-event';
+import Popper from 'test-element2/src/utils/vue-popper';
+import Clickoutside from 'test-element2/src/utils/clickoutside';
+import Emitter from 'test-element2/src/mixins/emitter';
+import Locale from 'test-element2/src/mixins/locale';
+import Migrating from 'test-element2/src/mixins/migrating';
+import ElInput from 'test-element2/packages/input';
+import ElTag from 'test-element2/packages/tag';
+import ElScrollbar from 'test-element2/packages/scrollbar';
+import ElCascaderPanel from 'test-element2/packages/cascader-panel';
+import AriaUtils from 'test-element2/src/utils/aria-utils';
+import { t } from 'test-element2/src/locale';
+import { isEqual, isEmpty, kebabCase } from 'test-element2/src/utils/util';
+import { isUndefined, isFunction } from 'test-element2/src/utils/types';
+import { isDef } from 'test-element2/src/utils/shared';
+import { addResizeListener, removeResizeListener } from 'test-element2/src/utils/resize-event';
 import debounce from 'throttle-debounce/debounce';
 
 const { keys: KeyCode } = AriaUtils;

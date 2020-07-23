@@ -2,7 +2,7 @@
   <div class="el-tabs__active-bar" :class="`is-${ rootTabs.tabPosition }`" :style="barStyle"></div>
 </template>
 <script>
-  import { arrayFind } from 'element-ui/src/utils/util';
+  import { arrayFind } from 'test-element2/src/utils/util';
   export default {
     name: 'TabBar',
 

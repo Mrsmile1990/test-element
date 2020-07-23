@@ -52,8 +52,8 @@
 </template>
 
 <script>
-import { on, off } from 'element-ui/src/utils/dom';
-import { rafThrottle, isFirefox } from 'element-ui/src/utils/util';
+import { on, off } from 'test-element2/src/utils/dom';
+import { rafThrottle, isFirefox } from 'test-element2/src/utils/util';
 
 const Mode = {
   CONTAIN: {

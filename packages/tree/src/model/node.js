@@ -1,6 +1,6 @@
-import objectAssign from 'element-ui/src/utils/merge';
+import objectAssign from 'test-element2/src/utils/merge';
 import { markNodeData, NODE_KEY } from './util';
-import { arrayFindIndex } from 'element-ui/src/utils/util';
+import { arrayFindIndex } from 'test-element2/src/utils/util';
 
 export const getChildState = node => {
   let all = true;
